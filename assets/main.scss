@@ -14,32 +14,6 @@ $family: "Inter var", "Inter", apple-system, BlinkMacSystemFont, "Segoe UI", Rob
   }
 }
 
-// Reset link styles
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-// Override the textfield's radius
-.v-text-field {
-  .v-field__outline__start {
-    border-radius: 10px 0 0 10px !important;
-  }
-  .v-field__outline__end {
-    border-radius: 0 10px 10px 0 !important;
-  }
-}
-
-.v-btn {
-  font-weight: 700 !important;
-}
-.label {
-  font-weight: 600;
-  font-size: 15px;
-  margin-bottom: 6px;
-  display: inline-block;
-  cursor: pointer;
-}
 // Theme gradients
 .gradient {
   &.primary {
