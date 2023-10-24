@@ -2,7 +2,7 @@
 
 ## Nuxt 3 + Vuetify 3 Project
 
-![Starter Image](/public/starter.png)
+![Starter Image](/public/Starter.png)
 Nuxt 3 is now stable. Vuetify 3 is now stable. I will be updating this template as we go along. Feel free to open an issue if you have any questions or suggestions.
 This template here will get you up & running with adding the two together :)
 
