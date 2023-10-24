@@ -3,7 +3,7 @@
 ## Nuxt 3 + Vuetify 3 Project
 
 ![Starter Image](/public/Starter.png)
-Nuxt 3 is now stable. Vuetify 3 is now stable. I will be updating this template as we go along. Feel free to open an issue if you have any questions or suggestions.
+Nuxt 3 is now stable. Vuetify 3 is now stable.
 This template here will get you up & running with adding the two together :)
 
 ## Demo Here
@@ -49,9 +49,9 @@ npm run dev
 
 The `.scss` file that can be found in the `assets` folder have some gradients & other styles. They can be deleted or updated.
 
-### ~~Helpers Folder~~ Utils Folder
+### Utils Folder
 
-The ~~helper~~ utils folder contains the custom stuff for the Vuetify plugin
+The utils folder contains the custom stuff for the Vuetify plugin
 
 #### Custom Icons - `customIcons.ts`
 
