@@ -6,3 +6,12 @@ export type ProductType = {
   image: string;
   category: string;
 };
+
+export type ErrorObject = {
+  url: string;
+  statusCode: number;
+  statusMessage: string;
+  message: string;
+  description: string;
+  data: any;
+};
