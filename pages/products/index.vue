@@ -25,6 +25,10 @@ definePageMeta({
 import type { ProductType } from '~~/types';
 import { uri } from '~~/data';
 
+useHead({
+  title: 'Nuxi Store | Merch',
+});
+
 // Fetch Products
 const { data: products } = await useFetch<ProductType[]>(uri);
 </script>
