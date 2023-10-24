@@ -3,10 +3,9 @@ import vuetify from 'vite-plugin-vuetify';
 // PWA Config
 const title = 'Nuxy Store';
 const shortTitle = 'Nuxy Store';
-const description =
-  'Template to get you up and running with Nuxt 3 & Vuetify 3';
-const image = 'https://vuetify3nuxt3starter.behonbaker.com/starter.png';
-const url = 'https://vuetify3nuxt3starter.behonbaker.com/';
+const description = 'Nuxy Store. Built with Nuxt 3 & Vuetify 3';
+const image = 'https://nuxy-store.vercel.app/starter.png';
+const url = 'https://nuxy-store.vercel.app/';
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
@@ -102,7 +101,7 @@ export default defineNuxtConfig({
   pwa: {
     meta: {
       name: shortTitle,
-      author: 'Behon Baker',
+      author: 'AbdulAzeez Olamide',
       theme_color: '#4f46e5',
       description: description,
     },
