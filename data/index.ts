@@ -20,3 +20,5 @@ export const Offers = [
       "Finding the perfect gift for your loved ones has never been easier. Our wide range of unique and thoughtful gift options will leave a lasting impression.",
   },
 ];
+
+export const uri = "https://fakestoreapi.com/products";
