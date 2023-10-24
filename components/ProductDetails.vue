@@ -1,25 +1,20 @@
 <template>
-  <div class="mt-6">
+  <div class="mt-10">
     <VRow>
-      <VCol cols="5" sm="12">
-        <VImg
-          :src="product?.image"
-          height="300px"
-          :width="300"
-          aspect-ratio="16/9"
-          cover
-        ></VImg>
+      <VCol cols="12" md="5">
+        <VImg :src="product?.image" height="500px" cover></VImg>
       </VCol>
-      <VCol cols="6" sm="12">
-        <VChip class="my-2 text-capitalize" color="primary">{{
+      <VCol cols="12" md="7" class="px-md-5">
+        <p class="text-primary-darken-2 text-h5">
+          Price - ${{ product?.price }}
+        </p>
+        <h6 class="text-h3 my-4">{{ product?.title }}</h6>
+        <VChip class="mb-5 text-capitalize" color="primary">{{
           product?.category
         }}</VChip>
-        <h6 class="text-h6 mb-4">{{ product?.title }}</h6>
+        <h6 class="text-h6">Description</h6>
+        <VDivider class="my-4" />
         <h6 class="text-subtitle-1">{{ product?.description }}</h6>
-
-        <p class="text-primary-darken-2 text-h5 mt-5">
-          Price: ${{ product?.price }}
-        </p>
       </VCol>
     </VRow>
   </div>
@@ -30,7 +25,7 @@ import type { ProductType } from '~/types';
 
 const { product } = defineProps({
   product: {
-    type: Object as PropType<ProductType>,
+    type: Object as PropType<ProductType | null>,
     required: true,
   },
 });
